@@ -9,9 +9,9 @@
 
   2) ImageEx.java possui a classe ImageEx que estende a classe Image. 
   Esta é composta por 3 métodos principais:
-  <p> 2.4) kochCurve(), o qual é recursivo e é responsável por desenhar a Curva de Koch. Esse recebe as coordenadas (px, py) do primeiro ponto (P), as coordenadas (qx, qy) do segundo ponto (Q) e l, o valor limiar da curva. Em outras palavras, enquanto o comprimento do segmento PQ for maior que l, novas linhas serão desenhadas para formar a Curva de Koch.
-  <p> 2.2) compSegmento(), um método auxiliar de kochCurve(), que de acordo com as coordenas de dois pontos, calcula o comprimento do segmento entre esses pontos.
-  <p> 2.3) regionFill(), é recursivo e é responsável por pintar uma determinada região, isto é, este método recebe as coordenadas de um determinado pixel e a cor (rgb) do mesmo e, enquanto a cor do pixel inicial é igual ao seu e aos do que estão ao seu redor, esses são pintado com a nova cor.
+  <br /> 2.4) kochCurve(), o qual é recursivo e é responsável por desenhar a Curva de Koch. Esse recebe as coordenadas (px, py) do primeiro ponto (P), as coordenadas (qx, qy) do segundo ponto (Q) e l, o valor limiar da curva. Em outras palavras, enquanto o comprimento do segmento PQ for maior que l, novas linhas serão desenhadas para formar a Curva de Koch.
+  <br /> 2.2) compSegmento(), um método auxiliar de kochCurve(), que de acordo com as coordenas de dois pontos, calcula o comprimento do segmento entre esses pontos.
+  <br /> 2.3) regionFill(), é recursivo e é responsável por pintar uma determinada região, isto é, este método recebe as coordenadas de um determinado pixel e a cor (rgb) do mesmo e, enquanto a cor do pixel inicial é igual ao seu e aos do que estão ao seu redor, esses são pintado com a nova cor.
 
   3) Main.java recebe 2 parâmetros na linha de comando, para que o programa seja executado.
 
