@@ -9,9 +9,9 @@
 
   2) ImageEx.java possui a classe ImageEx que estende a classe Image. 
   Esta é composta por 3 métodos principais:
-  2.4) kochCurve(), o qual é recursivo e é responsável por desenhar a Curva de Koch. Esse recebe as coordenadas (px, py) do primeiro ponto (P), as coordenadas (qx, qy) do segundo ponto (Q) e l, o valor limiar da curva. Em outras palavras, enquanto o comprimento do segmento PQ for maior que l, novas linhas serão desenhadas para formar a Curva de Koch.
-  2.2) compSegmento(), um método auxiliar de kochCurve(), que de acordo com as coordenas de dois pontos, calcula o comprimento do segmento entre esses pontos.
-  2.3) regionFill(), é recursivo e é responsável por pintar uma determinada região, isto é, este método recebe as coordenadas de um determinado pixel e a cor (rgb) do mesmo e, enquanto a cor do pixel inicial é igual ao seu e aos do que estão ao seu redor, esses são pintado com a nova cor.
+  <p> 2.4) kochCurve(), o qual é recursivo e é responsável por desenhar a Curva de Koch. Esse recebe as coordenadas (px, py) do primeiro ponto (P), as coordenadas (qx, qy) do segundo ponto (Q) e l, o valor limiar da curva. Em outras palavras, enquanto o comprimento do segmento PQ for maior que l, novas linhas serão desenhadas para formar a Curva de Koch.
+  <p> 2.2) compSegmento(), um método auxiliar de kochCurve(), que de acordo com as coordenas de dois pontos, calcula o comprimento do segmento entre esses pontos.
+  <p> 2.3) regionFill(), é recursivo e é responsável por pintar uma determinada região, isto é, este método recebe as coordenadas de um determinado pixel e a cor (rgb) do mesmo e, enquanto a cor do pixel inicial é igual ao seu e aos do que estão ao seu redor, esses são pintado com a nova cor.
 
   3) Main.java recebe 2 parâmetros na linha de comando, para que o programa seja executado.
 
@@ -53,9 +53,9 @@ instalar um editor de texto como o Visual Studio Code ou Notepad++.
   2) Lembre-se que o ponto x (horizontal) inicia em 0 e é crescente da esquerda para a direita. Já, o ponto y (vertical) inicia em 0 e é crescente de cima para baixo.
   3) Quando compilados, "-Xss200M" é utilizado para aumentar a pilha, pois as chamadas recursivas podem estourar a pilha. Porém, dependendo dos exemplos de entrada, pode ser preciso aumentar mais a pilha. Para isso, substitua o "200" em "-Xss200M" por algum outro valor que ache que será necessário para que a pilha não estoure.
   4) Caso queira fazer algum desenho, crie um arquivo "**.txt*". 
-      4.1) primeira linha desse arquivo precisará conter, obrigatoriamente 5 valores inteiros que definem as dimensões da imagem (altura e largura) e as componentes r, g, b da cor de fundo da mesma. 
-      4.2) Cada uma das demais linhas especifica um comando de desenho e os parâmetros exigidos por cada comando. Os seguintes comandos de desenho são válidos: SET_COLOR, SET_PIXEL, DRAW_LINE, KOCH_CURVE e REGION_FILL.
-      4.3) Sobre os comandos:
+      <p> 4.1) primeira linha desse arquivo precisará conter, obrigatoriamente 5 valores inteiros que definem as dimensões da imagem (altura e largura) e as componentes r, g, b da cor de fundo da mesma. 
+      <p> 4.2) Cada uma das demais linhas especifica um comando de desenho e os parâmetros exigidos por cada comando. Os seguintes comandos de desenho são válidos: SET_COLOR, SET_PIXEL, DRAW_LINE, KOCH_CURVE e REGION_FILL.
+      <p> 4.3) Sobre os comandos:
             <p> SET_COLOR devem ser especificados 3 parâmetros inteiros, correspondentes às componentes r, g e b da cor de primeiro plano (cor esta que será usada pelos comandos de desenho subsequentes).
             <p> SET_PIXEL devem ser especificados 2 parâmetros inteiros, que são as coordenadas x e y do pixel a ser colorido.
             <p> DRAW_LINE devem ser especificados 4 valores inteiros: x1 e y1, (coordenadas de um dos pontos da reta), e x2 e y2 (coordenadas do outro ponto da reta).
