@@ -1,12 +1,12 @@
 /*********************************************************************************/
-/**   ACH2002 - Introducao a Analise de Algoritmos                  			**/
-/**   EACH-USP - Segundo Semestre de 2020                           			**/
+/**   ACH2002 - Introducao a Analise de Algoritmos                  		**/
+/**   EACH-USP - Segundo Semestre de 2020                           		**/
 /**   Turma: 94 - Professor: Flavio Luiz Coutinho                               **/
-/**                                                                 			**/
-/**   Priemiro Exercicio-Programa                                   			**/
-/**                                                                 			**/
-/**   Nome da aluna: Gabriela Jie Han                  Numero USP: 11877423     **/
-/**                                                                 			**/
+/**                                                                 		**/
+/**   Priemiro Exercicio-Programa                                   		**/
+/**                                                                 		**/
+/**   Nome da aluna: Gabriela Han                  			     	**/
+/**                                                                 		**/
 /**   Data de entrega: 15/11/2020                                               **/
 /*********************************************************************************/
 import java.awt.*;
