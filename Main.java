@@ -14,7 +14,7 @@ import java.util.*;
 import java.io.*;
 
 /*********************************************************************************/
-/*    PROGRAMA PRINCIPAL.													     */
+/*    PROGRAMA PRINCIPAL.							 */
 /*********************************************************************************/
 public class Main {
 
@@ -45,9 +45,9 @@ public class Main {
 
 			/*********************************************************************/
 			/*    COMANDO KOCH_CURVE, no qual 5 comandos serao especificados:    */
-			/*    	- Coordenadas do ponto P (px e py)							 */
-			/*    	- Coordenadas do ponto Q (qx e qy)							 */
-			/*    	- O valor l do limiar										 */
+			/*    	- Coordenadas do ponto P (px e py)			     */
+			/*    	- Coordenadas do ponto Q (qx e qy)			     */
+			/*    	- O valor l do limiar					     */
 			/*********************************************************************/
 			if(command.equals("KOCH_CURVE")){
 
@@ -56,10 +56,10 @@ public class Main {
 
 			/*********************************************************************/
 			/*    COMANDO REGION_FILL, no qual 2 comandos serao especificados:   */
-			/*    	- Coordenadas x e y do ponto a partir do qual o 			 */
-			/*    	  preenchimento serah realizado								 */
-			/*    Alem disso, pegara a cor que jah esta pintada no pixel x e y	 */
-			/*    escolhido pelo usuario.		 								 */
+			/*    	- Coordenadas x e y do ponto a partir do qual o 	     */
+			/*    	  preenchimento serah realizado				     */
+			/*    Alem disso, pegara a cor que jah esta pintada no pixel x e y   */
+			/*    escolhido pelo usuario.		 			     */
 			/*********************************************************************/
 			if(command.equals("REGION_FILL")){
 
