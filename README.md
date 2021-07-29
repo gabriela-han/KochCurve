@@ -23,9 +23,9 @@
   ![image](https://user-images.githubusercontent.com/65685306/127441008-e94fe753-23c3-477a-b356-54e4ef52fc6d.png)
   <p> entrada3.txt = desenha um abacate em um fundo preto.
   <p> entrada4.txt = desenha um abacate em um fundo branco com "montanhas" cinzas.
-  entrada5.txt = desenha um abacate em um fundo cinza com a Curva de Koch preenchida em branco.
+  <p> entrada5.txt = desenha um abacate em um fundo cinza com a Curva de Koch preenchida em branco.
   ![image](https://user-images.githubusercontent.com/65685306/127440936-46d26e44-ac16-4a42-9938-b39258a8ce82.png)
-  entrada6.txt = desenha um abacate em um fundo branco com a Curva de Koch preenchida em cinza.
+  <p> entrada6.txt = desenha um abacate em um fundo branco com a Curva de Koch preenchida em cinza.
   ![image](https://user-images.githubusercontent.com/65685306/127440916-c5f3b567-ca49-4fb4-aa08-8ba4f0eb91c9.png)
 
   
@@ -38,15 +38,15 @@ instalar um editor de texto como o Visual Studio Code ou Notepad++.
   2) Modifique o diretório do cmd para a pasta onde se encontra este pdf.
   3) Digite "javac Main.java" no terminal e apertar o botão "Enter".
   4) Para ver a imagem do arquivo...
-      entrada.txt digite "java -Xss200M Main entrada.txt saida.png" e aperte o botão "Enter".
-      entrada1.txt digite "java -Xss200M Main entrada1.txt saida1.png" e aperte o botão "Enter".
-      entrada2.txt digite "java -Xss200M Main entrada2.txt saida2.png" e aperte o botão "Enter".
-      entrada3.txt digite "java -Xss200M Main entrada3.txt saida3.png" e aperte o botão "Enter".
-      entrada4.txt digite "java -Xss200M Main entrada4.txt saida4.png" e aperte o botão "Enter".
-      entrada5.txt digite "java -Xss200M Main entrada5.txt saida5.png" e aperte o botão "Enter".
-      entrada6.txt digite "java -Xss200M Main entrada6.txt saida6.png" e aperte o botão "Enter".
+      <p> entrada.txt digite "java -Xss200M Main entrada.txt saida.png" e aperte o botão "Enter".
+      <p> entrada1.txt digite "java -Xss200M Main entrada1.txt saida1.png" e aperte o botão "Enter".
+      <p> entrada2.txt digite "java -Xss200M Main entrada2.txt saida2.png" e aperte o botão "Enter".
+      <p> entrada3.txt digite "java -Xss200M Main entrada3.txt saida3.png" e aperte o botão "Enter".
+      <p> entrada4.txt digite "java -Xss200M Main entrada4.txt saida4.png" e aperte o botão "Enter".
+      <p> entrada5.txt digite "java -Xss200M Main entrada5.txt saida5.png" e aperte o botão "Enter".
+      <p> entrada6.txt digite "java -Xss200M Main entrada6.txt saida6.png" e aperte o botão "Enter".
       
-      Por fim, se todos os passos foram seguidos e, se o programa estiver sendo executado corretamente, as 7 imagens que correspondem ao que foi escrito em "Mais sobre os arquivos *.txt" poderão ser encontradas em formato "**.png*".
+      <p> Por fim, se todos os passos foram seguidos e, se o programa estiver sendo executado corretamente, as 7 imagens que correspondem ao que foi escrito em "Mais sobre os arquivos *.txt" poderão ser encontradas em formato "**.png*".
       
 ### Observações:
   1) O comprimento dos segmentos pode variar em até 3 unidades, visto que o valor desse foi arredondado para int.
@@ -56,11 +56,11 @@ instalar um editor de texto como o Visual Studio Code ou Notepad++.
       4.1) primeira linha desse arquivo precisará conter, obrigatoriamente 5 valores inteiros que definem as dimensões da imagem (altura e largura) e as componentes r, g, b da cor de fundo da mesma. 
       4.2) Cada uma das demais linhas especifica um comando de desenho e os parâmetros exigidos por cada comando. Os seguintes comandos de desenho são válidos: SET_COLOR, SET_PIXEL, DRAW_LINE, KOCH_CURVE e REGION_FILL.
       4.3) Sobre os comandos:
-            SET_COLOR devem ser especificados 3 parâmetros inteiros, correspondentes às componentes r, g e b da cor de primeiro plano (cor esta que será usada pelos comandos de desenho subsequentes).
-            SET_PIXEL devem ser especificados 2 parâmetros inteiros, que são as coordenadas x e y do pixel a ser colorido.
-            DRAW_LINE devem ser especificados 4 valores inteiros: x1 e y1, (coordenadas de um dos pontos da reta), e x2 e y2 (coordenadas do outro ponto da reta).
-            KOCH_CURVE devem ser especificados 5 valores inteiros: px e py (coordenada do ponto P), qx e qy (coordenada do ponto Q), e o valor l do limiar. 
-            REGION_FILL devem ser especificados 2 valores inteiros referentes às coordenadas x e y do ponto a partir do qual o preenchimento será feito.
+            <p> SET_COLOR devem ser especificados 3 parâmetros inteiros, correspondentes às componentes r, g e b da cor de primeiro plano (cor esta que será usada pelos comandos de desenho subsequentes).
+            <p> SET_PIXEL devem ser especificados 2 parâmetros inteiros, que são as coordenadas x e y do pixel a ser colorido.
+            <p> DRAW_LINE devem ser especificados 4 valores inteiros: x1 e y1, (coordenadas de um dos pontos da reta), e x2 e y2 (coordenadas do outro ponto da reta).
+            <p> KOCH_CURVE devem ser especificados 5 valores inteiros: px e py (coordenada do ponto P), qx e qy (coordenada do ponto Q), e o valor l do limiar. 
+            <p> REGION_FILL devem ser especificados 2 valores inteiros referentes às coordenadas x e y do ponto a partir do qual o preenchimento será feito.
 
 ### Créditos:
   Programa realizado como exercício programa por Gabriela Jie Han, com o auxílio do "códigos esqueletos" do professor Flávio Luiz Coutinho da Escola de Artes, Ciências e Humanidades da Universidade de São Paulo, para matéria de Introdução à Análise de Algoritmos.
