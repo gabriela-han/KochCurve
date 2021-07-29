@@ -17,12 +17,12 @@
 
 ### Mais sobre os arquivos "**.txt*":
   Eles são responsáveis por realizar o teste do programa, isto é, esses contêm as definições para a criação de uma imagem (dimensões e cor de fundo), bem como comandos de desenhos para serem executados.
-  entrada.txt = desenha o Logo original da Síntese Jr., a Empresa Júnior de Sistemas de Informações da EACH. 
-  entrada1.txt = desenha o Logo da Síntese Jr., porém em 3 tons de verde e com um gorro de Natal.
-  entrada2.txt = desenha o Logo da Síntese Jr., porém em 3 tons de verde, com um gorro de Natal e 3 flocos de neve (cada floco realizado com 4 Curva de Koch).
+  <p> entrada.txt = desenha o Logo original da Síntese Jr., a Empresa Júnior de Sistemas de Informações da EACH. 
+  <p> entrada1.txt = desenha o Logo da Síntese Jr., porém em 3 tons de verde e com um gorro de Natal.
+  <p> entrada2.txt = desenha o Logo da Síntese Jr., porém em 3 tons de verde, com um gorro de Natal e 3 flocos de neve (cada floco realizado com 4 Curva de Koch).
   ![image](https://user-images.githubusercontent.com/65685306/127441008-e94fe753-23c3-477a-b356-54e4ef52fc6d.png)
-  entrada3.txt = desenha um abacate em um fundo preto.
-  entrada4.txt = desenha um abacate em um fundo branco com "montanhas" cinzas.
+  <p> entrada3.txt = desenha um abacate em um fundo preto.
+  <p> entrada4.txt = desenha um abacate em um fundo branco com "montanhas" cinzas.
   entrada5.txt = desenha um abacate em um fundo cinza com a Curva de Koch preenchida em branco.
   ![image](https://user-images.githubusercontent.com/65685306/127440936-46d26e44-ac16-4a42-9938-b39258a8ce82.png)
   entrada6.txt = desenha um abacate em um fundo branco com a Curva de Koch preenchida em cinza.
