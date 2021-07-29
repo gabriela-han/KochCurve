@@ -1,19 +1,19 @@
 /*********************************************************************************/
-/**   ACH2002 - Introducao a Analise de Algoritmos                  			**/
-/**   EACH-USP - Segundo Semestre de 2020                           			**/
+/**   ACH2002 - Introducao a Analise de Algoritmos                  		**/
+/**   EACH-USP - Segundo Semestre de 2020                           		**/
 /**   Turma: 94 - Professor: Flavio Luiz Coutinho                               **/
-/**                                                                 			**/
-/**   Priemiro Exercicio-Programa                                   			**/
-/**                                                                 			**/
-/**   Nome da aluna: Gabriela Jie Han                  Numero USP: 11877423     **/
-/**                                                                 			**/
+/**                                                                 		**/
+/**   Priemiro Exercicio-Programa                                   		**/
+/**                                                                 		**/
+/**   Nome da aluna: Gabriela Han                  			     	**/
+/**                                                                 		**/
 /**   Data de entrega: 15/11/2020                                               **/
 /*********************************************************************************/
 
 /*********************************************************************************/
-/*    Classe que possui os metodos kochCurve() e regionFill(), os quais 		 */
-/*	  irao, respectivamente, desenhar a Curva de Koch e preencher a forma		 */
-/*    segundo as coordenadas recebidas de um pixel.				                 */
+/*    Classe que possui os metodos kochCurve() e regionFill(), os quais 	 */
+/*	  irao, respectivamente, desenhar a Curva de Koch e preencher a forma	 */
+/*    segundo as coordenadas recebidas de um pixel.				 */
 /*********************************************************************************/
 public class ImageEx extends Image {
 
@@ -28,12 +28,12 @@ public class ImageEx extends Image {
 	}
 	
 /*********************************************************************************/
-/*    METODO kochCurve()											   			 */
-/*	  Nos parametros, recebe as coordenadas de P=(px, py) e Q=(qx, qy) e l,		 */
-/*	  o valor do limiar.											        	 */
-/*																				 */
+/*    METODO kochCurve()							 */
+/*	  Nos parametros, recebe as coordenadas de P=(px, py) e Q=(qx, qy) e l,	 */
+/*	  o valor do limiar.							 */
+/*										 */
 /*    1) Se comprimento do segmento PQ for menor que l, desenha o segmento PQ    */
-/*    	 que esta representado como c.										     */
+/*    	 que esta representado como c.						 */
 /*    2) Caso contrario:                                                         */
 /*        2.1) Calcula os pontos A=(Ax,Ay), B=(Bx,By), C=(Cx,Cy).                */
 /*        2.2) Chama o algoritmo recurivamente para PA, AB, BC e CQ.             */
@@ -94,7 +94,7 @@ public class ImageEx extends Image {
 /*********************************************************************************/
 /*    METODO AUXILIAR compSegmento() - calcula o comprimento de cada segmento.   */
 /*    Nos parametros, recebe as coordenadas (x, y) das extremidades do segmento	 */
-/*	  a ser caclulado. 														     */
+/*	  a ser caclulado. 							 */
 /*********************************************************************************/ 
 	private static int compSegmento(int px, int py, int qx, int qy) {
 			
@@ -104,16 +104,16 @@ public class ImageEx extends Image {
 
 
 /*********************************************************************************/
-/*    METODO regionFill()  									                   	 */
-/*	  Nos parametros, recebe as coordenadas (x, y) do pixel a partir do qual	 */
-/* 	  sera feito o preenchimento e reference_rgb, que determina a partir de    	 */
-/*	  qual cor de pixel serah pintado.									    	 */
-/*    					  									                   	 */
+/*    METODO regionFill()  							 */
+/*	  Nos parametros, recebe as coordenadas (x, y) do pixel a partir do qual */
+/* 	  sera feito o preenchimento e reference_rgb, que determina a partir de  */
+/*	  qual cor de pixel serah pintado.					 */
+/*    					  					 */
 /*    1) Se x e y recebidos como parametro forem maiores ou igual a altura ou	 */
-/*		 a lagura jah estabelecidas ou menores que 0, nada acontecera.	     	 */
+/*		 a lagura jah estabelecidas ou menores que 0, nada acontecera.	 */
 /*    2) Mas, se o valor de cor do pixel original(parametro) for igual do    	 */
 /*       pixel inicial, entao o mesmo pixel eh colorido e, em seguida, chamara	 */
-/*		 o algoritmo recursivamente para os pixels vizinhos.     				 */
+/*		 o algoritmo recursivamente para os pixels vizinhos.     	 */
 /*********************************************************************************/ 
 	public void regionFill(int x, int y, int reference_rgb){
 
