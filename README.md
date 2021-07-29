@@ -1,7 +1,7 @@
 # KochCurve
 ### Exercício Programa (EP): Desenhando a Curva de Koch e Preenchendo a Região
 
-### SOBRE O PROGRAMA:
+### Sobre o Programa:
   Esta pasta é composta por este arquivo README.pdf, 3 códigos em "*.java" e 7 arquivos em "*.txt".
   Mais sobre os códigos em java (comentados com mais detalhe em cada arquivo):
   
@@ -58,5 +58,5 @@ instalar um editor de texto como o Visual Studio Code ou Notepad++.
             KOCH_CURVE devem ser especificados 5 valores inteiros: px e py (coordenada do ponto P), qx e qy (coordenada do ponto Q), e o valor l do limiar. 
             REGION_FILL devem ser especificados 2 valores inteiros referentes às coordenadas x e y do ponto a partir do qual o preenchimento será feito.
 
-### CRÉDITOS:
+### Créditos:
   Programa realizado como exercício programa por Gabriela Jie Han, com o auxílio do "códigos esqueletos" do professor Flávio Luiz Coutinho da Escola de Artes, Ciências e Humanidades da Universidade de São Paulo, para matéria de Introdução à Análise de Algoritmos.
