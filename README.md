@@ -20,13 +20,13 @@
   <br /> entrada.txt = desenha o Logo original da Síntese Jr., a Empresa Júnior de Sistemas de Informações da EACH. 
   <br /> entrada1.txt = desenha o Logo da Síntese Jr., porém em 3 tons de verde e com um gorro de Natal.
   <br /> entrada2.txt = desenha o Logo da Síntese Jr., porém em 3 tons de verde, com um gorro de Natal e 3 flocos de neve (cada floco realizado com 4 Curva de Koch).
-  ![image](https://user-images.githubusercontent.com/65685306/127441008-e94fe753-23c3-477a-b356-54e4ef52fc6d.png)
+  <br />![image](https://user-images.githubusercontent.com/65685306/127441008-e94fe753-23c3-477a-b356-54e4ef52fc6d.png)
   <br /> entrada3.txt = desenha um abacate em um fundo preto.
   <br /> entrada4.txt = desenha um abacate em um fundo branco com "montanhas" cinzas.
   <br /> entrada5.txt = desenha um abacate em um fundo cinza com a Curva de Koch preenchida em branco.
-  ![image](https://user-images.githubusercontent.com/65685306/127440936-46d26e44-ac16-4a42-9938-b39258a8ce82.png)
+  <br />![image](https://user-images.githubusercontent.com/65685306/127440936-46d26e44-ac16-4a42-9938-b39258a8ce82.png)
   <br /> entrada6.txt = desenha um abacate em um fundo branco com a Curva de Koch preenchida em cinza.
-  ![image](https://user-images.githubusercontent.com/65685306/127440916-c5f3b567-ca49-4fb4-aa08-8ba4f0eb91c9.png)
+  <br />![image](https://user-images.githubusercontent.com/65685306/127440916-c5f3b567-ca49-4fb4-aa08-8ba4f0eb91c9.png)
 
   
 ### Pré Requisitos:
