@@ -1,5 +1,5 @@
 # KochCurve
-## Exercício Programa (EP): Desenhando a Curva de Koch e Preenchendo a Região
+### Exercício Programa (EP): Desenhando a Curva de Koch e Preenchendo a Região
 
 ### SOBRE O PROGRAMA:
   Esta pasta é composta por este arquivo README.pdf, 3 códigos em "*.java" e 7 arquivos em "*.txt".
@@ -15,8 +15,48 @@
 
   3) Main.java recebe 2 parâmetros na linha de comando, para que o programa seja executado.
 
-### Mais sobre os arquivos "*.txt*":
+### Mais sobre os arquivos "**.txt*":
   Eles são responsáveis por realizar o teste do programa, isto é, esses contêm as definições para a criação de uma imagem (dimensões e cor de fundo), bem como comandos de desenhos para serem executados.
   entrada.txt = desenha o Logo original da Síntese Jr., a Empresa Júnior de Sistemas de Informações da EACH. 
   entrada1.txt = desenha o Logo da Síntese Jr., porém em 3 tons de verde e com um gorro de Natal.
-  entrada2.txt = desenha o Logo da Síntese Jr., porém em 3 tons de verde, com um gorro de Natal e 3 flocos de neve (cada floco realizado com 4 Curva de Koch
+  entrada2.txt = desenha o Logo da Síntese Jr., porém em 3 tons de verde, com um gorro de Natal e 3 flocos de neve (cada floco realizado com 4 Curva de Koch).
+  entrada3.txt = desenha um abacate em um fundo preto.
+  entrada4.txt = desenha um abacate em um fundo branco com "montanhas" cinzas.
+  entrada5.txt = desenha um abacate em um fundo cinza com a Curva de Koch preenchida em branco.
+  entrada6.txt = desenha um abacate em um fundo branco com a Curva de Koch preenchida em cinza.
+  
+### Pré Requisitos:
+  Para executar este programa é preciso ter somente o java instalado. Porém, para editar os códigos é recomendado 
+instalar um editor de texto como o Visual Studio Code ou Notepad++.
+
+### Como compilar:
+  1) Abra o Prompt de Comando.
+  2) Modifique o diretório do cmd para a pasta onde se encontra este pdf.
+  3) Digite "javac Main.java" no terminal e apertar o botão "Enter".
+  4) Para ver a imagem do arquivo...
+      entrada.txt digite "java -Xss200M Main entrada.txt saida.png" e aperte o botão "Enter".
+      entrada1.txt digite "java -Xss200M Main entrada1.txt saida1.png" e aperte o botão "Enter".
+      entrada2.txt digite "java -Xss200M Main entrada2.txt saida2.png" e aperte o botão "Enter".
+      entrada3.txt digite "java -Xss200M Main entrada3.txt saida3.png" e aperte o botão "Enter".
+      entrada4.txt digite "java -Xss200M Main entrada4.txt saida4.png" e aperte o botão "Enter".
+      entrada5.txt digite "java -Xss200M Main entrada5.txt saida5.png" e aperte o botão "Enter".
+      entrada6.txt digite "java -Xss200M Main entrada6.txt saida6.png" e aperte o botão "Enter".
+      
+      Por fim, se todos os passos foram seguidos e, se o programa estiver sendo executado corretamente, as 7 imagens que correspondem ao que foi escrito em "Mais sobre os arquivos *.txt" poderão ser encontradas em formato "**.png*".
+      
+### Observações:
+  1) O comprimento dos segmentos pode variar em até 3 unidades, visto que o valor desse foi arredondado para int.
+  2) Lembre-se que o ponto x (horizontal) inicia em 0 e é crescente da esquerda para a direita. Já, o ponto y (vertical) inicia em 0 e é crescente de cima para baixo.
+  3) Quando compilados, "-Xss200M" é utilizado para aumentar a pilha, pois as chamadas recursivas podem estourar a pilha. Porém, dependendo dos exemplos de entrada, pode ser preciso aumentar mais a pilha. Para isso, substitua o "200" em "-Xss200M" por algum outro valor que ache que será necessário para que a pilha não estoure.
+  4) Caso queira fazer algum desenho, crie um arquivo "**.txt*". 
+      4.1) primeira linha desse arquivo precisará conter, obrigatoriamente 5 valores inteiros que definem as dimensões da imagem (altura e largura) e as componentes r, g, b da cor de fundo da mesma. 
+      4.2) Cada uma das demais linhas especifica um comando de desenho e os parâmetros exigidos por cada comando. Os seguintes comandos de desenho são válidos: SET_COLOR, SET_PIXEL, DRAW_LINE, KOCH_CURVE e REGION_FILL.
+      4.3) Sobre os comandos:
+            SET_COLOR devem ser especificados 3 parâmetros inteiros, correspondentes às componentes r, g e b da cor de primeiro plano (cor esta que será usada pelos comandos de desenho subsequentes).
+            SET_PIXEL devem ser especificados 2 parâmetros inteiros, que são as coordenadas x e y do pixel a ser colorido.
+            DRAW_LINE devem ser especificados 4 valores inteiros: x1 e y1, (coordenadas de um dos pontos da reta), e x2 e y2 (coordenadas do outro ponto da reta).
+            KOCH_CURVE devem ser especificados 5 valores inteiros: px e py (coordenada do ponto P), qx e qy (coordenada do ponto Q), e o valor l do limiar. 
+            REGION_FILL devem ser especificados 2 valores inteiros referentes às coordenadas x e y do ponto a partir do qual o preenchimento será feito.
+
+### CRÉDITOS:
+  Programa realizado como exercício programa por Gabriela Jie Han, com o auxílio do "códigos esqueletos" do professor Flávio Luiz Coutinho da Escola de Artes, Ciências e Humanidades da Universidade de São Paulo, para matéria de Introdução à Análise de Algoritmos.
